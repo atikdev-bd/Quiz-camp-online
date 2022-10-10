@@ -29,7 +29,7 @@ const SingleQuiz = ({ quest }) => {
         </div>
         <div className="border rounded bg-gray-300 overflow-auto h-20 p-2">
           <input type="radio" id="" name="fav_language" value="" />
-          <label className="ml-1" for="html">
+          <label className="ml-1 mt-2" for="html">
             {quest.options[1]}
           </label>
         </div>

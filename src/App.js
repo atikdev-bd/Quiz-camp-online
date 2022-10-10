@@ -6,6 +6,7 @@ import Home from './Components/Home/Home';
 import QuizDetails from './Components/QuizDetails/QuizDetails';
 import Blog from './Components/Blog/Blog';
 import Statistics from './Components/Statistics/Statistics';
+import NotFound from './Components/NotFound/NotFound';
 
 function App() {
   const router = createBrowserRouter([
@@ -42,13 +43,16 @@ function App() {
           path : 'statistics',
           loader : () => fetch('https://openapi.programming-hero.com/api/quiz'), 
            element: <Statistics></Statistics>
+        },
+        {
+          path : "*" , element : <NotFound></NotFound>
         }
       ]
     }
 
   ])
   return (
-    <div className='bg-neutral-300'>
+    <div>
    
    <RouterProvider router = {router}></RouterProvider>
     </div>
