@@ -5,12 +5,11 @@ import Quiz from "../Quiz/Quiz";
 
 const Home = () => {
   const quiz = useLoaderData();
-  console.log(quiz.data)
   
   return (
     <div>
       <Header></Header>
-      <div className="grid grid-cols-4 gap-6 mt-8 mx-4">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-6 mt-8 mx-4">
         {
             quiz.data.map(quiz => <Quiz key={quiz.id} quiz = {quiz}></Quiz>)
         }
