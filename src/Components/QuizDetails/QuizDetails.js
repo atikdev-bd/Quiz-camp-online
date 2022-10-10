@@ -8,8 +8,8 @@ const QuizDetails = () => {
 //   console.log(details.data.questions);
   const {questions} = details.data
   return (
-    <div>
-      <h1>Quiz of {details.data.name}</h1>
+    <div className="text-center text-orange-400">
+      <h1 className="text-6xl font-semibold">Quiz of {details.data.name}</h1>
       <div>
         {
           questions.map(quest => <SingleQuiz key={quest.id} quest ={quest}></SingleQuiz>)

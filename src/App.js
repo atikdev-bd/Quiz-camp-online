@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './Layout/Main';
 import Home from './Components/Home/Home';
 import QuizDetails from './Components/QuizDetails/QuizDetails';
+import Blog from './Components/Blog/Blog';
 
 function App() {
   const router = createBrowserRouter([
@@ -27,13 +28,21 @@ function App() {
           },
 
           element : <QuizDetails></QuizDetails>
+        },
+        {
+          path : 'blog' , element : <Blog></Blog>
+        },
+        {
+          path : 'topics' ,
+          loader : () => fetch('https://openapi.programming-hero.com/api/quiz'), 
+          element : <Home></Home>
         }
       ]
     }
 
   ])
   return (
-    <div>
+    <div className='bg-neutral-300'>
    
    <RouterProvider router = {router}></RouterProvider>
     </div>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Quiz = ({ quiz }) => {
   const { name, id, logo, total } = quiz;
-  return <div className="rounded-md shadow-lg bg-slate-600">
+  return <div className="rounded-md drop-shadow-2xl mb-6 bg-slate-600">
           <div className="border rounded-md p-2">
           <img className="" src={logo} alt="" />
           </div>
