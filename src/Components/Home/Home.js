@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
       <Header></Header>
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-6 mt-8 mb-36 mx-4">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-6 mt-8 mb-36 mx-8">
         {
             quiz.data.map(quiz => <Quiz key={quiz.id} quiz = {quiz}></Quiz>)
         }
