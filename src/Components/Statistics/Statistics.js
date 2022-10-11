@@ -7,7 +7,7 @@ const Statistics = () => {
   const details = data.data
   
   return (
-    <div className="flex justify-center mt-12 mr-12 ">
+    <div className="flex justify-center pt-12 pr-12 bg-neutral-200 ">
       <LineChart width={500} height={300} data={details}>
       <Line type="monotone" dataKey="pv" stroke="#8884d8" activeDot={{ r: 8 }} />
       <Line type="monotone" dataKey='total' stroke="#82ca9d" />
