@@ -6,7 +6,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="header text-center">
-      <div className="lg:flex md:flex justify-between" >
+      <div className="lg:flex md:flex justify-between">
         <div>
           <Lottie
             className=" w-[300px] lg:w-[600px] md:w-[600px]"
@@ -14,7 +14,7 @@ const Header = () => {
             loop={true}
           ></Lottie>
         </div>
-        <h1 className="text-6xl lg:text-4xl md:text-4xl lg:mt-4 text-green-500 hover:text-green-600  lg:text-teal-900 md:hover:text-red-500 font-bold lg:scroll-mr-48 md:mr-52 lg: pt-44">
+        <h1 className="text-6xl lg:text-4xl md:text-4xl lg:mt-4 text-green-500 hover:text-green-600  lg:text-teal-900 md:hover:text-red-500 font-bold lg:scroll-mr-48 md:mr-52 lg:pt-44 md:pt-44 ">
           <span className="text-6xl">L</span>ET'S START QUIZ...
         </h1>
       </div>
