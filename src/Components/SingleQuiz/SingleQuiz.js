@@ -10,7 +10,7 @@ const SingleQuiz = ({ quest }) => {
     if (ids === correctAnswer) {
       toast.success("congratulation ! Right Answer");
     } else {
-      toast.error("OPS! Wrong Answer");
+      toast.error("Opps! Wrong Answer");
     }
   };
 
