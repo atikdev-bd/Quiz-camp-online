@@ -1,5 +1,6 @@
 .header{
-    height: 500px;
-    background-image: url('../../Assets/Img/wepik-photo-mode-2022910-22290.png');
+    height: 600px;
+    width:auto;
+    background-image: url('../../Assets/Img/paper-tears-texture-background.jpg');
     background-repeat: no-repeat;
 }
