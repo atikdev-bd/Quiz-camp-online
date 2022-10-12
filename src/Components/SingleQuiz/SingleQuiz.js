@@ -15,7 +15,7 @@ const SingleQuiz = ({ quest }) => {
   };
 
   const toasts = (values) => {
-    toast("correct answer " + values);
+    toast("correct answer = " + values);
     return;
   };
   return (
