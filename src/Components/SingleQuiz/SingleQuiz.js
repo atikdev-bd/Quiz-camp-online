@@ -8,9 +8,9 @@ const SingleQuiz = ({ quest }) => {
 
   const rightOrWrong = (ids) => {
     if (ids === correctAnswer) {
-      toast("congratulation ! Right Answer");
+      toast.success("congratulation ! Right Answer");
     } else {
-      toast("OPS! Wrong Answer");
+      toast.error("OPS! Wrong Answer");
     }
   };
 
