@@ -1,7 +1,7 @@
 # Quiz camp projects !
 
 
-[Github server side code link](https://github.com/programming-hero-web-course2/b6-quiz-crackerz-atikdev-bd.git)
+[Github clint side code link](https://github.com/programming-hero-web-course2/b6-quiz-crackerz-atikdev-bd.git)
 
 
 [Netlify live site link](https://quiz-camp-site.netlify.app/)

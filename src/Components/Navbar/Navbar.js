@@ -7,7 +7,6 @@ const Navbar = () => {
     textDecoration: "underline",
   };
 
-
   return (
     <div>
       <nav className="bg-slate-600 flex justify-between px-4 md:px-14 lg:px-16 h-14 items-center">
